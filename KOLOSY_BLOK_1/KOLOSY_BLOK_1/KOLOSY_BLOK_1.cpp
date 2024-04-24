@@ -1,4 +1,6 @@
 ﻿#include "Wybor.h"
+#include "zapis.h"
+#include "odczyt.h"
 
 #ifdef kolos_0A_sekcja_0
 
@@ -32,21 +34,24 @@ int main()
 
 short* alokujTablice(uint8_t rozmiar);
 
-void zapiszTablice(const char* sciezkaPliku, short* tablica);
-
 int main()
 {
-	zapiszTablice("Tablica0.txt", alokujTablice(2));
-	zapiszTablice("Tablica0.txt", alokujTablice(4));
-	zapiszTablice("Tablica0.txt", alokujTablice(8));
-	zapiszTablice("Tablica0.txt", alokujTablice(16));
-}
+	short* tab1 = alokujTablice(16);
+	zapiszTablice("Tablica0.txt", tab1);
 
-#endif
+	std::cout << std::endl;
+
+	odczytajTablice("Tablica0.txt", 16);
+
+	delete[] (tab1-1);
+	tab1 = nullptr;
+}
 
 short* alokujTablice(uint8_t rozmiar)
 {
-	static uint8_t licznikTablic = 0;
+	static uint8_t bufor; static uint8_t licznikTablic;
+	if (rozmiar != bufor) licznikTablic = 0;
+	bufor = rozmiar;
 
 	short infoTablica = 0;
 
@@ -66,7 +71,4 @@ short* alokujTablice(uint8_t rozmiar)
 	return tablica + 1;
 }
 
-void zapiszTablice(const char* sciezkaPliku, short* tablica)
-{
-	std::cout << std::endl << std::bitset<16>(tablica[-1]) << std::endl;
-}
+#endif

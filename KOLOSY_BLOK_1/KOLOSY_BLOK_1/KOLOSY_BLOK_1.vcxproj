@@ -129,9 +129,13 @@
   <ItemGroup>
     <ClCompile Include="KOLOSY_BLOK_1.cpp" />
     <ClCompile Include="KOLOSY_BLOK_2.cpp" />
+    <ClCompile Include="odczyt.cpp" />
+    <ClCompile Include="zapis.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="odczyt.h" />
     <ClInclude Include="Wybor.h" />
+    <ClInclude Include="zapis.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
