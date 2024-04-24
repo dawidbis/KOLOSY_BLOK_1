@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki źródłowe\0A_sekcja_1">
+      <UniqueIdentifier>{136d1b2c-c157-44f0-b016-f464d2462ea2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="KOLOSY_BLOK_1.cpp">
@@ -21,22 +24,28 @@
     <ClCompile Include="KOLOSY_BLOK_2.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="zapis.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="odczyt.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
+    </ClCompile>
+    <ClCompile Include="zapis.cpp">
+      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
+    </ClCompile>
+    <ClCompile Include="0A_sekcja_1.cpp">
+      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Wybor.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="zapis.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
     <ClInclude Include="odczyt.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
+    </ClInclude>
+    <ClInclude Include="zapis.h">
+      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
+    </ClInclude>
+    <ClInclude Include="0A_sekcja_1.h">
+      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
