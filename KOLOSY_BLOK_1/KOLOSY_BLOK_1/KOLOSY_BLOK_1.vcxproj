@@ -127,17 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="KOLOSY_BLOK_1.cpp" />
-    <ClCompile Include="KOLOSY_BLOK_2.cpp" />
-    <ClCompile Include="0A_sekcja_1.cpp" />
-    <ClCompile Include="odczyt.cpp" />
-    <ClCompile Include="zapis.cpp" />
+    <ClInclude Include="Wybor.h" />
+    <ClInclude Include="zapis_odczyt.h" />
+    <ClInclude Include="zapis_odczyt2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="0A_sekcja_1.h" />
-    <ClInclude Include="odczyt.h" />
-    <ClInclude Include="Wybor.h" />
-    <ClInclude Include="zapis.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="zapis_odczyt.cpp" />
+    <ClCompile Include="zapis_odczyt2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

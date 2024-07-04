@@ -8,4 +8,4 @@
 #include <bitset>
 #include <cstdint>
 
-#define kolos_0A_sekcja_1
+#define kol_sek_2_t1

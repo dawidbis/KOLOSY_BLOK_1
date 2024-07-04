@@ -13,39 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Pliki źródłowe\0A_sekcja_1">
-      <UniqueIdentifier>{136d1b2c-c157-44f0-b016-f464d2462ea2}</UniqueIdentifier>
+    <Filter Include="Pliki źródłowe\kol_przykladowy">
+      <UniqueIdentifier>{ea621cb9-d838-4cb4-98d5-b383a6e18584}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="KOLOSY_BLOK_1.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="KOLOSY_BLOK_2.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="odczyt.cpp">
-      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
-    </ClCompile>
-    <ClCompile Include="zapis.cpp">
-      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
-    </ClCompile>
-    <ClCompile Include="0A_sekcja_1.cpp">
-      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
-    </ClCompile>
+    <Filter Include="Pliki źródłowe\kol_sek_2">
+      <UniqueIdentifier>{3427a75d-8853-4c0e-98e2-3440c5097c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\kol_sek_2_t1">
+      <UniqueIdentifier>{4d77484b-c4c3-49c1-8c55-902be45ca57d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Wybor.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="odczyt.h">
-      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
+    <ClInclude Include="zapis_odczyt.h">
+      <Filter>Pliki źródłowe\kol_przykladowy</Filter>
     </ClInclude>
-    <ClInclude Include="zapis.h">
-      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
+    <ClInclude Include="zapis_odczyt2.h">
+      <Filter>Pliki źródłowe\kol_sek_2</Filter>
     </ClInclude>
-    <ClInclude Include="0A_sekcja_1.h">
-      <Filter>Pliki źródłowe\0A_sekcja_1</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="zapis_odczyt.cpp">
+      <Filter>Pliki źródłowe\kol_przykladowy</Filter>
+    </ClCompile>
+    <ClCompile Include="zapis_odczyt2.cpp">
+      <Filter>Pliki źródłowe\kol_sek_2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
